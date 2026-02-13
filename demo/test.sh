@@ -1,0 +1,2 @@
+curl -F "file=@demo.docx" -F "convert-to=pdf" http://localhost:8080/request --output result_docx.pdf
+curl -F "file=@demo.xlsx" -F "convert-to=pdf" http://localhost:8080/request --output result_xlsx.pdf
